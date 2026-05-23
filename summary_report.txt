@@ -1,0 +1,12 @@
+=== 电影票房预测建模报告 ===
+数据路径: D:/picturefixed/processed_data/cleaned_data.csv
+总样本量: 2001
+分层数量: 5
+
+=== 最佳模型 ===
+XGBoost (Hybrid R2=0.987, MSE=251450984672457.7)
+
+=== 模型对比 ===
+RandomForest: Global=0.504, Stratified=-0.041, Hybrid=0.894
+XGBoost: Global=0.320, Stratified=-0.588, Hybrid=0.987
+LightGBM: Global=0.570, Stratified=0.078, Hybrid=0.842
